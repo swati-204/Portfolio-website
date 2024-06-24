@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+           <img src="images/logo.png" class="logo">
+    <ul id="sidemenu">
+            <li><a href="#header"> Home</a></li>
+            <li><a href="#about"> About</a></li>
+            <li><a href="#projects"> Projects</a></li>
+            <li><a href="#contact"> Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>Hi ,I'm <span>Swati</span><br />Welcome to <br>
+             my personal <br>Portfolio Website.</h1>
+             <div id="background">
+              <img class="bottom" src="images/b1.png" />
+              </div>
+        </div>
+      </div>
+    </div>
+    <!------------------- ABOUT ------------------ -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col1">
+            <img src="./images/user.jpg" />
+          </div>
+          <div class="about-col2">
+            <h1 class="subtitle">About Me</h1>
+            <p>
+              I am an undergraduate with a Bachelor's degree in Computer Applications. My journey in the tech world began with learning C and C++, which laid a strong foundation for my programming skills. Venturing into web development, I explored HTML, CSS, and JavaScript, and I'm excited to delve deeper into JavaScript libraries.My passion for creating interactive
+              and user-friendly websites has led me to explore advanced
+              technologies like React.
+
+              During my academic journey, I completed an internship in social media and digital marketing. This experience not only enhanced my technical skills but also honed my writing and content creation abilities. I also gained proficiency in designing with Canva, creating visually appealing content.
+              
+              Currently, I am exploring the QA field, learning about different testing methodologies and their applications. My projects in web development include DOM manipulation, various interactive games, and comprehensive websites.
+              
+              I am passionate about continuous learning and look forward to further expanding my knowledge and expertise in both web development and quality assurance.<br />
+              I am committed to continuous learning and am always excited to
+              expand my skill set to craft innovative web solutions."
+            </p>
+
+            <div class="titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Programming Languages</span>
+                  <br>
+                  C, C++, JAVASCRIPT.
+                </li>
+              <li>
+              <span>Web Designing</span><br />Designing web interfaces
+            </li>
+                <li>
+                    <span>Tools and Technologies
+                    </span> <br>Git , GitHub Visual Studio Code, Canva.
+                    </li>
+               <li><span>Web Development</span><br />HTML,CSS , JAVASCRIPT and DOM Manipulation</li>
+               <li>
+                <span>Other Skills</span><br>
+                Social media management, Content Creation.
+               </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Internship in Social Media and Digital Marketing</span>
+                  <br />Flying Minds and Biyani Girls College</li>
+                  <p>Enhanced my skills in social media management and digital marketing. <br>
+                    Developed content creation and writing capabilities. <br>
+                    Designed visuals and promotional material using Canva.</p>
+                <li>
+                  <span>Web Development Projects</span>
+                  <br>Self-directed | Ongoing 
+                </li>
+                <p>
+                  Developed multiple web projects including games and interactive websites using HTML, CSS, and JavaScript.
+                  <br>
+                 Created projects focusing on DOM manipulation and responsive design. <br>
+                 Integrated background music and interactive elements into games like Tic-Tac-Toe.
+                </p>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2021 - 2024<br />Biyani girls college (Rajasthan University)</span>
+                </li>
+                <p>Bachelor's Of Computer Applications (BCA)
+                  <br>GPA : 8.5
+                </p>
+                <li>
+                  <span> 2020 - 2021 <br>High School (CBSE)</span>
+                </li>
+                <p>Physics, Chemistry, Biology <br>
+                Percentage : 76%</p>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------- Projects--------------------------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/work-1.jpeg">
+                    <div class="layer">
+                      <h3>Amazon clone</h3>
+                      <p>The project involve recreating Amazon's website using HTML and CSS, demonstrating front-end skills.</p>
+                        <a href="https://github.com/swati-204/Amazon-clone"><i class="fa-solid fa-up-right-from-square"></i></a>
+                      </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work-2.jpeg">
+                    <div class="layer">
+                      <h3>DOM Projects</h3>
+                      <p>Created few mini projects using js Dom model.</p>
+                        <a href="https://github.com/swati-204/DOM-projects"><i class="fa-solid fa-up-right-from-square"></i></a>
+                      
+                    </div>
+                </div>
+                <div class="work">
+                  <img src="./images/work-3.jpg">
+                  <div class="layer">
+                    <h3>Tic-Tac-Toe Game</h3>
+                    <p>
+                    This Project features
+              
+                      Interactive Gameplay
+                        <br>Engaging Background Music and Smooth UI/UX
+                  </p>
+                      <a href="https://github.com/swati-204/tic-tac-toe"><i class="fa-solid fa-up-right-from-square"></i></a>
+                  </div>
+              </div>
+              <div class="work">
+                <img src="./images/work-4.jpg">
+                <div class="layer">
+                  <h3>WonderPlay</h3>
+                  <p>
+                 It is a Group project that includes four immersive games and user-friendly interface.
+
+                </p>
+                    <a href="https://github.com/swati-204/WONDER-PLAY"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            </div>
+        <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!------------------- Contact----------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>swatikanwar204@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 6006179768 </p>
+                
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/swati-kanwar-264540228/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://github.com/swati-204"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="SWATI_RESUME.pdf"  download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://formsubmit.co/ f73b11227e929c11e5f02ed2d7205776 " method="POST">
+                   <input type="text" name="Name" placeholder="Your Name" required/>
+                   <input type="email" name="email" placeholder="Your Email" required />
+                   <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                   <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright @ Swati.Made with <i class="fa-solid fa-heart"></i> by Swati Kanwar</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName('tab-links');
+    var tabcontents = document.getElementsByClassName('tab-contents');
+     
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+  var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemenu.style.right = "0";
+  }
+
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+  }
+</script>
+
+  </body>
+</html>
